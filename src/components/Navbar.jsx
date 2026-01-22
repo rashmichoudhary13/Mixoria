@@ -61,7 +61,7 @@ const Navbar = () => {
         <>
             <div className='py-4 px-3 md:px-20 flex justify-between'>
                 <div className='text-2xl font-bold'>
-                    Velvet Pour
+                    Mixoria
                 </div>
 
                 <div onClick={() => setOpen(true)}>

@@ -52,21 +52,6 @@ const mockTailLists = [
  },
 ];
 
-const profileLists = [
- {
-	imgPath: "/images/profile1.png",
- },
- {
-	imgPath: "/images/profile2.png",
- },
- {
-	imgPath: "/images/profile3.png",
- },
- {
-	imgPath: "/images/profile4.png",
- },
-];
-
 const featureLists = [
  "Perfectly balanced blends",
  "Garnished to perfection",
@@ -100,17 +85,17 @@ const openingHours = [
 const socials = [
  {
 	name: "Instagram",
-	icon: "/images/insta.png",
+	icon: "../images/insta.png",
 	url: "#",
  },
  {
 	name: "X (Twitter)",
-	icon: "/images/x.png",
+	icon: "../images/x.png",
 	url: "#",
  },
  {
 	name: "Facebook",
-	icon: "/images/fb.png",
+	icon: "../images/fb.png",
 	url: "#",
  },
 ];
@@ -153,7 +138,6 @@ const allCocktails = [
 export {
  cocktailLists,
  mockTailLists,
- profileLists,
  featureLists,
  goodLists,
  openingHours,

@@ -430,7 +430,7 @@ const GlobalSpotlight = ({
 
 const BentoCardGrid = ({ children, gridRef }) => (
   <div
-    className="bento-section grid gap-2 p-3 w-full select-none relative"
+    className="bento-section w-[110%] gap-20 md:w-full select-none relative"
     style={{ fontSize: 'clamp(1rem, 0.9rem + 0.5vw, 1.5rem)' }}
     ref={gridRef}
   >
@@ -490,7 +490,7 @@ const MagicBento = ({
     
           .card-responsive {
             display: grid;
-            gap: 0.75rem;
+            gap: 0.95rem;
           }
 
           /* Mobile */
@@ -618,7 +618,7 @@ const MagicBento = ({
             .card-responsive {
               grid-template-columns: 1fr;
               width: 90%;
-              margin: 0 auto;
+              margin: 0 0;
               padding: 0.5rem;
             }
             

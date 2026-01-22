@@ -12,8 +12,9 @@ const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   useGSAP(() => {
-    const heroSplit = new SplitText('.title', { type: 'chars, words' });
-    const paragraphSplit = new SplitText('.subtitle', { type: 'lines' });
+    
+    const heroSplit = SplitText.create('.headTitle', { type: 'chars, words' });
+    const paragraphSplit = SplitText.create('.subtitle', { type: 'lines' });
 
     gsap.from(heroSplit.chars, {
       yPercent: 100,
@@ -50,7 +51,7 @@ const Hero = () => {
 		trigger: "video",
 		start: startValue,
 		end: endValue,
-		scrub: true,
+		scrub: 0.3,
 		pin: true,
 	 },
 	});
@@ -66,7 +67,7 @@ const Hero = () => {
   return (
     <>
       <section className='relative mt-8 min-h-dvh z-10' id="hero">
-        <h1 className='text-7xl md:text-[14vw] text-center title'> MOJITO </h1>
+        <h1 className='text-7xl md:text-[12vw] text-center headTitle'> DAIQUIRI </h1>
 
         <img src={heroLeftLeaf} alt="" className='w-25 md:w-fit absolute bottom-10 md:top-8 xl:top-24 2xl:top-40 md:bottom-auto leftLeaf' />
         <img src={heroRightLeaf} alt="" className='w-25 md:w-auto absolute right-0 top-50 md:top-0 pointer-events-none rightLeaf' />

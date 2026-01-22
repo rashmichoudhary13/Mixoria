@@ -1,3 +1,0 @@
-Most video have KeyFrames every few seconds.
-But for smoothness of video, we need every frame as a KeyFrames.
-So, we use ffmpeg to convert every frame into keyframe.

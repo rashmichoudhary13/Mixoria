@@ -4,6 +4,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from "gsap";
 import Cocktails from "./components/Cocktails";
 import About from "./components/About";
+import TheArt from "./components/TheArt";
+import Menu from "./components/Menu";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -16,6 +19,9 @@ function App() {
         <Cocktails />
       </div>
       <About />
+      <TheArt/>
+      <Menu/>
+      <Footer/>
     </div>
   )
 }
