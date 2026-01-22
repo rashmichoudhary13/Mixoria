@@ -67,19 +67,19 @@ const Hero = () => {
   return (
     <>
       <section className='relative mt-8 min-h-dvh z-10' id="hero">
-        <h1 className='text-7xl md:text-[12vw] text-center headTitle'> DAIQUIRI </h1>
+        <h1 className='text-5xl md:text-[12vw] text-center headTitle'> DAIQUIRI </h1>
 
-        <img src={heroLeftLeaf} alt="" className='w-25 md:w-fit absolute bottom-10 md:top-8 xl:top-24 2xl:top-40 md:bottom-auto leftLeaf' />
+        <img src={heroLeftLeaf} alt="" className='w-25 md:w-fit absolute bottom-10 sm:bottom-0 lg:top-8 xl:top-24 2xl:top-40 lg:bottom-auto leftLeaf' />
         <img src={heroRightLeaf} alt="" className='w-25 md:w-auto absolute right-0 top-50 md:top-0 pointer-events-none rightLeaf' />
 
         <div className='container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-40 flex justify-between items-end px-5'>
           <div className='flex justify-between w-full gap-10 items-end mx-auto'>
-            <div className='hidden md:block'>
+            <div className='hidden lg:block'>
               <p>Cool. Crisp. Classic</p>
-              <p className='text-yellow-100 text-3xl md:text-5xl font-bold md:leading-15 w-90 subtitle'>Sip the Spirit of Summer</p>
+              <p className='text-yellow-100  lg:text-5xl font-bold md:leading-15 w-90 subtitle'>Sip the Spirit of Summer</p>
             </div>
 
-            <div className='py-10 md:py-0 space-y-5 md:text-lg max-w-2xl md:max-w-xs font-bold'>
+            <div className='py-10 lg:py-0 space-y-5 md:text-3xl lg:text-lg max-w-5xl lg:max-w-xs font-bold mx-auto lg:mx-0'>
               <p className='subtitle'>Every cocktail on our menu is a
                 blend of premium ingredients,
                 creative flair, and timeless recipes
@@ -98,7 +98,7 @@ const Hero = () => {
           muted
           playsInline
           preload="auto"
-          className='w-full md:h-[80%] h-1/2 absolute bottom-0 left-0 object-cover md:object-contain'
+          className='w-full lg:h-[80%] h-1/2 absolute bottom-0 left-0 object-cover md:object-contain'
         />
       </div>
       

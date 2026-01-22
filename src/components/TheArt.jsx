@@ -47,7 +47,7 @@ const TheArt = () => {
             <div className='min-h-dvh text-center relative radial-gradient'>
                 <h2 className='text-[15vw] relative text-[#505050] md:pt-15 will-fade'>The ART</h2>
 
-                <div className='flex flex-col md:flex-row gap-10 justify-between mx-20 mt-45 md:mt-10'>
+                <div className='flex flex-col md:flex-row gap-10 justify-between mx-8 lg:mx-20 mt-45 lg:mt-10'>
                     <ul className='will-fade space-y-4'>
                         {
                             featureLists.map((data,index) => (
@@ -59,7 +59,7 @@ const TheArt = () => {
                         }
                     </ul>
 
-                    <div className='md:w-[55vw] w-full h-[40vh] md:h-[65vh] rounded-4xl absolute top-[5%] md:top-[30%] -translate-y-[30%] left-1/2 -translate-x-1/2 overflow-hidden'>
+                    <div className='w-full h-[40vh] lg:w-[55vw] lg:h-[65vh] rounded-4xl absolute top-[5%] sm:top-[20%] lg:top-[30%] -translate-y-[30%] left-1/2 -translate-x-1/2 overflow-hidden'>
                         <img
                             src={under_img}
                             alt="cocktail"
@@ -78,12 +78,12 @@ const TheArt = () => {
                     </ul>
                 </div>
 
-                <div id='masked-content' className='opacity-0 space-y-3 mt-10 mx-5 md:mx-0'>
+                <div id='masked-content' className='opacity-0 space-y-3 mx-5 lg:mx-0 mt-10 lg:mt-20 xl:mt-25'>
                         <h3 className='text-xl md:text-4xl text-center'>Made with Craft, Poured with Passion</h3>
                         <p className='text-sm w-70 mx-auto md:w-auto md:mx-0'>This isn’t just a drink. It’s a carefully crafted moment made just for you.</p>
                 </div>
 
-                <div className='-mt-10'>
+                <div className='-mt-15'>
                     <h2 className='will-fade text-3xl text-center'> Sip-worthy Perfection </h2>
                 </div>
 

@@ -7,6 +7,7 @@ import About from "./components/About";
 import TheArt from "./components/TheArt";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
+import Drinks from "./components/Drinks";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -19,6 +20,7 @@ function App() {
         <Cocktails />
       </div>
       <About />
+      <Drinks/>
       <TheArt/>
       <Menu/>
       <Footer/>

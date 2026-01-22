@@ -37,13 +37,13 @@ const About = () => {
         <section ref={aboutRef} className='py-15 mx-7 md:mx-20'>
 
             {/* Written Section  */}
-            <div className='grid md:grid-cols-2 items-start w-full py-10'>
-                <div className='space-y-5 md:max-w-xl'>
+            <div className='grid lg:grid-cols-2 items-start w-full py-10'>
+                <div className='space-y-5 max-w-lg md:max-w-xl'>
                     <button className='bg-white text-black py-2 px-4 rounded-full font-semibold'>Best Cocktails</button>
-                    <h1 className='text-5xl md:text-5xl py-5 about_title tracking-tight '>Where every detail matters-from muddle to garnish</h1>
+                    <h1 className='text-3xl md:text-5xl py-5 about_title tracking-tight '>Where every detail matters-from muddle to garnish</h1>
                 </div>
 
-                <div className='justify-self-end md:max-w-md '>
+                <div className='justify-self-end lg:max-w-md '>
                     <p className='text-lg mb-10'>Every cocktail we serve is a reflection of our obsession with detail — from the first
                         muddle to the final garnish. That care is what turns a simple drink into something truly memorable.</p>
                     <p className='text-3xl font-bold mb-2'>

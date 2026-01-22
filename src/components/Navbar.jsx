@@ -70,7 +70,7 @@ const Navbar = () => {
             </div>
 
             {/* Menu  */}
-            <div ref={menuRef} className='fixed top-0 right-0 bg-white h-screen w-60 md:w-1/2 text-black z-10 translate-x-full'>
+            <div ref={menuRef} className='fixed top-0 right-0 bg-white h-screen w-60 md:w-1/2 text-black z-20 translate-x-full'>
                 <div className='relative'>
                     <FiX onClick={() => setOpen(false)} size={35} className='absolute right-1 md:right-5 cursor-pointer font-bold m-5' />
 
