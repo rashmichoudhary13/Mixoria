@@ -8,7 +8,7 @@ const SummerCocktail = () => {
         <ambientLight intensity={0.2} color='#1a1a40'/>
         <directionalLight intensity={1} position={[5,5,5]}/>
 
-      
+        {/* Hello how are you  */}
 
         <mesh>
            <boxGeometry args={[1,1,1]}/>
