@@ -47,7 +47,7 @@ const About = () => {
                     <p className='text-lg mb-10'>Every cocktail we serve is a reflection of our obsession with detail — from the first
                         muddle to the final garnish. That care is what turns a simple drink into something truly memorable.</p>
                     <p className='text-3xl font-bold mb-2'>
-                        <span className='text-5xl font-bold text-yellow-100'>4.5</span>/5</p>
+                        <span className='text-5xl font-bold text-yellow-200'>4.5</span>/5</p>
                     <p className='text-sm'>More than +12000 customers</p>
                 </div>
             </div>

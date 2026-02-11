@@ -11,6 +11,7 @@ const Menu = () => {
   useGSAP(() => {
     gsap.fromTo('.Mtitle',{opacity: 0}, {opacity: 1, duration: 1, })
     gsap.fromTo('.details',{yPercent:100, opacity: 0 }, {yPercent: 0, opacity: 1, duration: 0.5})
+    gsap.from('.cocktail-img', {x:-300, opacity: 0, duration: 1})
   },[currentIndex])
 
   const totalCocktails = allCocktails.length;
@@ -69,14 +70,14 @@ const Menu = () => {
 
          {/* image */}
          <div className='mx-auto mt-30'>
-            <img src={drink} alt="" className='object-contain h-[60vh]'/>
+            <img src={currentCocktail.image} alt="" className='object-contain h-[60vh] cocktail-img'/>
          </div>
 
          {/* Recipe */}
          <div className='flex flex-col lg:flex-row absolute justify-between w-full gap-9 lg:gap-10 bottom-0 lg:items-end translate-y-60 lg:translate-y-0'>
             <div className='space-y-2'>
                 <h2 className='text-sm'>Recipe for: </h2>
-                <p className='text-2xl md:text-5xl md:w-1/2 text-yellow-100 Mtitle'>{currentCocktail.name}</p>
+                <p className='text-2xl md:text-5xl md:w-1/2 text-yellow-200 Mtitle'>{currentCocktail.name}</p>
             </div>
 
             <div className='lg:max-w-sm space-y-4 details'>

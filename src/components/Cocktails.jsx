@@ -44,7 +44,7 @@ const Cocktails = () => {
                         cocktailLists.map(drink => (
                             <li key={drink.name} className='flex items-start justify-between space-y-6'>
                                 <div className='lg:me-28 leading-9'>
-                                    <h2 className='text-lg text-yellow-100 '> {drink.name} </h2>
+                                    <h2 className='text-lg text-yellow-200 '> {drink.name} </h2>
                                     <p className='text-sm'>{drink.country} | {drink.detail}</p>
                                 </div>
                                 <span className='text-lg w-16 text-right'>-{drink.price}</span>
@@ -62,7 +62,7 @@ const Cocktails = () => {
                         mockTailLists.map(drink => (
                             <li key={drink.name} className='flex items-start justify-between space-y-6'>
                                 <div className='lg:me-28 leading-9'>
-                                    <h2 className='text-lg text-yellow-100 '> {drink.name} </h2>
+                                    <h2 className='text-lg text-yellow-200 '> {drink.name} </h2>
                                     <p className='text-sm'>{drink.country} | {drink.detail}</p>
                                 </div>
                                 <span className='text-lg w-16 text-right'>-{drink.price}</span>
