@@ -9,7 +9,7 @@ import { BsStars } from "react-icons/bs";
 
 const Drinks = () => {
     return (
-        <section className='min-h-dvh mb-30'>
+        <section className='min-h-dvh mb-30' id="Promise">
             <div className='text-center my-10'>
                 <h2 className='text-3xl lg:text-5xl font-bold'> WHY OUR DRINKS? </h2>
                 <p className='text-xs lg:text-sm'>Crafted With Purpose. Served With Passion. </p>

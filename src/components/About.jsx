@@ -34,7 +34,7 @@ const About = () => {
     },[]) 
 
     return (
-        <section ref={aboutRef} className='py-15 mx-7 md:mx-20'>
+        <section ref={aboutRef} className='py-15 mx-7 md:mx-20' id="about">
 
             {/* Written Section  */}
             <div className='grid lg:grid-cols-2 items-start w-full py-10'>

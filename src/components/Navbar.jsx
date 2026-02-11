@@ -6,19 +6,23 @@ import { useGSAP } from '@gsap/react';
 const nav = [
     {
         title: "Cocktatils",
-        href: "#about"
+        href: "#hero"
     },
     {
         title: "About Us",
-        href: "#travel"
+        href: "#about"
+    },
+    {
+        title: "Why Us",
+        href: "#Promise"
     },
     {
         title: "The Art",
-        href: "#news"
+        href: "#art"
     },
     {
         title: "Contact",
-        href: "#review"
+        href: "#footer"
     },
 ]
 
@@ -78,7 +82,7 @@ const Navbar = () => {
                         {
                             nav.map((item) => (
                                 <li className='my-15 opacity-0 stagger' key={item.title}>
-                                    <a href=""> {item.title} </a>
+                                    <a href={item.href}> {item.title} </a>
                                 </li>
                             ))
                         }
