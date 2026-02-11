@@ -43,22 +43,22 @@ const Footer = () => {
       <img src={footerRightLeaf} alt="" className='absolute right-0 top-0 footerRightLeaf w-25 md:w-fit' />
       <img src={footerimg} alt="" className='absolute right-10 bottom-5 w-25 md:w-50 footerDrink' />
 
-      <div className='text-center space-y-15 mt-20 libre-baskerville-min'>
-        <h2 className='text-3xl md:text-6xl libre-baskerville title'>{storeInfo.heading}</h2>
+      <div className='text-center space-y-15 mt-20'>
+        <h2 className='text-3xl md:text-6xl title font-bold'>{storeInfo.heading}</h2>
 
         <div>
-          <p className='mb-4'>VISIT OUR BAR</p>
+          <p className='mb-4 font-semibold'>VISIT OUR BAR</p>
           <p className='md:text-2xl'>{storeInfo.address}</p>
         </div>
 
         <div className='space-y-2'>
-          <h3>CONTACT US</h3>
+          <h3 className='font-semibold'>CONTACT US</h3>
           <p className='md:text-2xl'>{storeInfo.contact.phone}</p>
           <p className='md:text-2xl'>{storeInfo.contact.email}</p>
         </div>
 
         <div>
-          <h3 className='text-sm mb-2'>OPEN EVERY DAY</h3>
+          <h3 className='text-sm mb-2 font-semibold'>OPEN EVERY DAY</h3>
           {
             openingHours.map(open => (
               <p key={open.day} className='md:text-2xl'>{open.day} : {open.time}</p>
@@ -67,8 +67,8 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className='mb-4'>SOCIALS</h3>
-          <div className='flex gap-6 w-31 h-6 mx-auto'>
+          <h3 className='mb-4 font-semibold'>SOCIALS</h3>
+          <div className='flex gap-6 w-31 h-6 mx-auto cursor-pointer'>
             <img src={fb} alt="" className=' object-contain'/>
             <img src={x} alt="" />
             <img src={insta} alt="" />

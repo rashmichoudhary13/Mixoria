@@ -41,7 +41,7 @@ const Menu = () => {
 
                 return (
                     <button key={index}
-                      className={`border-b cursor-pointer pb-2 transition-colors
+                      className={`border-b cursor-pointer pb-2 transition-colors font-bold
                         ${isActive ? 'text-white border-white' : 'text-white/50 border-white/50'}`}
                       onClick={() => goToSlide(index)}
                     >
@@ -76,13 +76,13 @@ const Menu = () => {
          {/* Recipe */}
          <div className='flex flex-col lg:flex-row absolute justify-between w-full gap-9 lg:gap-10 bottom-0 lg:items-end translate-y-60 lg:translate-y-0'>
             <div className='space-y-2'>
-                <h2 className='text-sm'>Recipe for: </h2>
+                <h2 className='text-lg font-bold'>Recipe for: </h2>
                 <p className='text-2xl md:text-5xl md:w-1/2 text-yellow-200 Mtitle'>{currentCocktail.name}</p>
             </div>
 
             <div className='lg:max-w-sm space-y-4 details'>
-                <h2 className='text-2xl md:text-4xl'>{currentCocktail.title}</h2>
-                <p className='libre-baskerville-min'>{currentCocktail.description}</p>
+                <h2 className='text-2xl md:text-4xl font-bold'>{currentCocktail.title}</h2>
+                <p>{currentCocktail.description}</p>
             </div>
          </div>
        </div>
