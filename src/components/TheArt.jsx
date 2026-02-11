@@ -45,7 +45,7 @@ const TheArt = () => {
     return (
         <section id='art'>
             <div className='min-h-dvh text-center relative radial-gradient'>
-                <h2 className='text-[15vw] relative text-[#505050] md:pt-15 will-fade'>The ART</h2>
+                <h2 className='text-[15vw] relative text-[#505050] md:pt-15 will-fade font-bold'>The ART</h2>
 
                 <div className='flex flex-col md:flex-row gap-10 justify-between mx-8 lg:mx-20 mt-45 lg:mt-10'>
                     <ul className='will-fade space-y-4'>
@@ -84,7 +84,7 @@ const TheArt = () => {
                 </div>
 
                 <div className='-mt-15'>
-                    <h2 className='will-fade text-3xl text-center'> Sip-worthy Perfection </h2>
+                    <h2 className='will-fade text-3xl text-center font-bold'> Sip-worthy Perfection </h2>
                 </div>
 
                 

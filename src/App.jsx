@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 function App() {
   return (
-    <div className="libre-baskerville">
+    <div className="font-['Libre_Baskerville']">
       <div className="noise">
         <Navbar />
         <Hero />
